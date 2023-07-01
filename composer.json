@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Alexmartech\\CoreLumenV2\\": "src/"
+            "AlexMarTech\\CoreLumenV2\\": "src/"
         },
         "files" : [
             "src/Helpers/debug_helper.php",

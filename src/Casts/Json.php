@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexmartech\CoreLumenV2\Casts;
+namespace AlexMarTech\CoreLumenV2\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 

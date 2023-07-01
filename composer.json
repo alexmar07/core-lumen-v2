@@ -1,0 +1,36 @@
+{
+    "name": "alexmartech/core-lumen-v2",
+    "description": "Versione 2 del core di Lumen",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alexmartech\\CoreLumenV2\\": "src/"
+        },
+        "files" : [
+            "src/Helpers/debug_helper.php",
+            "src/Helpers/response_helper.php",
+            "src/Helpers/log_helper.php"
+        ]
+    },
+    "scripts": {
+        "test" : "phpunit tests"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alessandro Marotta",
+            "email": "alessand.marotta@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/lumen-framework": "^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}

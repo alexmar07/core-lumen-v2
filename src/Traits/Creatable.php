@@ -1,5 +1,7 @@
 <?php namespace AlexMarTech\CoreLumenV2\Traits;
 
+use Illuminate\Database\Eloquent\Model;
+
 trait Creatable {
 
     use Relations;
@@ -25,6 +27,8 @@ trait Creatable {
                 $this->storeRelations($resource, $relation, $values);
             }
         }
+
+        return $resource;
     }
 
     protected function beforeStore(array $data) : array {
